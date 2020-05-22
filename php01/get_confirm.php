@@ -8,8 +8,8 @@ $mail = $_GET["mail"];
 <title>GET練習（受信）</title>
 </head>
 <body>
-お名前：<?php echo $name; ?>
-Mail：<?php echo $mail; ?>
+お名前：<?=$name?>
+Mail：<?=$mail?>
 <ul>
 <li><a href="index.php">index.php</a></li>
 </ul>

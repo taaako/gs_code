@@ -1,0 +1,8 @@
+,
+tako, ,, takotako@tako.tako.
+2020-05-22 03:30:04
+tako,takotako@tako.tako.
+tako,takotako@tako.takotest01,test01@test.jp
+2020-05-22 03:40:12
+test01,test01@test.jp
+tako,takotako@tako.tako

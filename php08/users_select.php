@@ -10,8 +10,8 @@ try {
 }
 
 //２．テーブル名"gs_user_table"のSQLを作成
-//課題：ソート降順/5レコードのみ取得 ←演習に則って行います
-$sql = "SELECT * FROM gs_user_table ORDER BY id DESC";
+//課題：ソート降順/5レコードのみ取得
+$sql = "SELECT * FROM gs_user_table ORDER BY id DESC LIMIT 5";
 $stmt = $pdo->prepare($sql);
 $status = $stmt->execute();
 
